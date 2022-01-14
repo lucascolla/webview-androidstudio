@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 	WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
-      webView.loadUrl("file:///android_asset/mytext.html");
+      webView.loadUrl("file:///android_asset/index.html");
    }
 }
 ~~~
